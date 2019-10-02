@@ -1,11 +1,6 @@
 <script>
-	export let name;
+  import Quiz from "./components/Quiz.svelte";
 </script>
 
-<style>
-	h1 {
-		color: purple;
-	}
-</style>
-
-<h1>Hello {name}!</h1>
+<h1>My quiz</h1>
+<Quiz />
